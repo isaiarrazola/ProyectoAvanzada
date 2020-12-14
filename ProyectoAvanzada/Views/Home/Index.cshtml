@@ -1,0 +1,614 @@
+﻿<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="~/Scripts/modal_view_productos.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>TECSHOP</h1>
+    </div>
+
+
+
+
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://miro.medium.com/max/12032/1*7iGP_h5Plj5i7uDlCPCefA.jpeg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">JUGO</p>
+                            <p class="card-text">Marca: Juice</p>
+                            <p class="card-text">Tamaño: 1 litro</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyJugo" onclick="agregarProducto('JUGO')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyJugoQuitar" onclick="quitarProducto('JUGO')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyJugo" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: JUGO</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyJugoQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: JUGO</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                                <small class="text-muted">10 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://i.eldiario.com.ec/fotos-manabi-ecuador/2017/01/20170110070101_apua-ala-a-su-novio-porque-se-le-co.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">PAPITAS</p>
+                            <p class="card-text">Marca: sabritonas</p>
+                            <p class="card-text">Tamaño: 600 gramos</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyPapitas" onclick="agregarProducto('PAPITAS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyPapitasQuitar" onclick="quitarProducto('PAPITAS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyPapitas" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: PAPITAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyPapitasQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: PAPITAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <small class="text-muted">12 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://orizonia.com/wp-content/uploads/2019/09/mejor-at%C3%BAn-en-lata.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">ATUN</p>
+                            <p class="card-text">Marca: Del Marques</p>
+                            <p class="card-text">Tamaño: 100 gramos</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyAtun" onclick="agregarProducto('ATUN')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyAtunQuitar" onclick="quitarProducto('ATUN')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyAtun" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: ATUN</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyAtunQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: ATUN</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+                                <small class="text-muted">8 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://www.viennatimes.com/wp-content/uploads/Reduced-Sized-Bottles-Anger.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">COCA</p>
+                            <p class="card-text">Marca: Cocalon</p>
+                            <p class="card-text">Tamaño: 2 litros</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyCoca" onclick="agregarProducto('COCA')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyCocaQuitar" onclick="quitarProducto('COCA')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyCoca" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: COCA</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyCocaQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: COCA</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                                <small class="text-muted">25 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://t1.rg.ltmcdn.com/es/images/6/8/2/galletas_de_mantequilla_con_chocolate_55286_600.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">GALLETAS</p>
+                            <p class="card-text">Marca: Glamesa</p>
+                            <p class="card-text">Tamaño: 380 gramos</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyGalleta" onclick="agregarProducto('GALLETAS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyGalletaQuitar" onclick="quitarProducto('GALLETAS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyGalleta" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: GALLETAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyGalletaQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: GALLETAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <small class="text-muted">13 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nachos-supreme-horizontal-1547669254.png" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">NACHOS</p>
+                            <p class="card-text">Marca: Nachancho</p>
+                            <p class="card-text">Tamaño: 1 pts</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyNacho" onclick="agregarProducto('NACHOS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyNachoQuitar" onclick="quitarProducto('NACHOS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyNacho" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: NACHOS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyNachoQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: NACHOS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                                <small class="text-muted">18 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://img.taste.com.au/s2Alyuoo/taste/2017/02/softshellbeeftacos-121189-1.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">TACOS</p>
+                            <p class="card-text">Marca: La ñora</p>
+                            <p class="card-text">Tamaño: 4 tacos</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyTaco" onclick="agregarProducto('TACOS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyTacoQuitar" onclick="quitarProducto('TACOS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyTaco" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: TACOS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyTacoQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: TACOS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+                                <small class="text-muted">25 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://d38trduahtodj3.cloudfront.net/images.ashx?t=ig&rid=VisitLaredo&i=pino_burgers.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">HAMBURGESAS</p>
+                            <p class="card-text">Marca: El ñoño</p>
+                            <p class="card-text">Tamaño: 1 Contenido</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyHamburgesa" onclick="agregarProducto('HAMBURGESAS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyHamburgesaQuitar"onclick="quitarProducto('HAMBURGESAS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyHamburgesa" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: HAMBURGESAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyHamburgesaQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: HAMBURGESAS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <small class="text-muted">30 pesos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://assets.kraftfoods.com/recipe_images/opendeploy/110643_KRL_K55189V0S_OR1_OH_640x428.jpg" alt="Trulli" width="100%" height="100%">
+
+                        <div class="card-body">
+                            <p class="card-text" style="text-align:center">HOTDOGS</p>
+                            <p class="card-text">Marca: Elchino</p>
+                            <p class="card-text">Tamaño: 1 Contenido</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyHotdog" onclick="agregarProducto('HOTDOGS')">Añadir</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#MyHotdogQuitar" onclick="quitarProducto('HOTDOGS')">Quitar</button>
+                                </div>
+
+                                <div class="modal fade" id="MyHotdog" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha añadido el producto: HOTDOGS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="MyHotdogQuitar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Se ha Quitado un producto: HOTDGOS</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <small class="text-muted">20 pesos</small>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Realizar compra</h2>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onclick="mostrarFactura()">Comprar</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">FACTURA</h4>
+                    </div>
+                    <form action="./" method="post">
+                        <div id="factura" class="modal-body">
+                            <div class="modal-footer">
+                                
+                                
+                            </div>
+                            <input type="submit" name="Comprar" value="Comprar" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
